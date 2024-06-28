@@ -1,0 +1,53 @@
+.contact-title {
+    margin-bottom: 10px;
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin: 20px 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0%;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+}
+
+.address {
+    margin: 20px 0;
+}
+
+.address-text {
+    border-bottom: 1px solid #2590CF;
+    padding: 7px 0;
+}
+
+.address-link i {
+    font-size: 1.2rem;
+    transition: .5s all ease-in-out;
+}
+
+.address-link:hover i {
+    transform: rotate(360deg);
+}
+
+.address-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #00213D;
+}
+
+.address-link:hover {
+    text-decoration: none;
+    color: var(--navbarBg);
+}
+
+.contact-icon {
+    margin-right: 10px;
+}

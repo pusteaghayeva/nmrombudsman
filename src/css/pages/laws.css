@@ -1,0 +1,59 @@
+.dinamic_title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.management {
+    margin: 40px 0 70px 0;
+}
+
+.white-box:last-child {
+    margin-bottom: 100px;
+}
+
+.white-box {
+    background-color: #F2F2F2;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    padding: 15px 25px;
+    transition: all .4s ease-in-out;
+}
+
+.white-box:hover {
+    transform: scale(1.02);
+}
+
+.white-box-link {
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.white-box-link img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.white-box-link:hover {
+    text-decoration: none;
+}
+
+.white-box .law-caption {
+    font-size: 1.2rem;
+    color: #303030;
+    line-height: 24px;
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    .dinamic_title {
+        font-size: 20px;
+        /* font-weight: 600;
+        text-align: center;
+        margin: 40px 0; */
+    }
+}

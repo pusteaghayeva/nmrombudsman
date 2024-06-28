@@ -1,0 +1,33 @@
+.request {
+    margin: 40px 0;
+}
+
+.request-card {
+    border: none;
+}
+
+.request-text {
+    margin-bottom: 20px;
+}
+
+.send-second-button {
+    background-color: var(--navbarBg);
+    border: none;
+    transition: all .3s ease-in-out;
+    margin: 20px 0;
+    width: 12%;
+    color: var(--headerColor);
+    padding: 10px;
+}
+
+.send-second-button:hover {
+    background-color: var(--navbarBg);
+    border: none;
+    color: var(--headerColor);
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+
+}
+#sender_type{
+    margin: 5px 0;
+}

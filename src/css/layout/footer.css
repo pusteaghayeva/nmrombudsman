@@ -1,0 +1,83 @@
+footer {
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+footer {
+    background: var(--navbarBg);
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer .bottom-details {
+    width: 100%;
+    background: var(--navbarBg);
+    color: var(--newsBg);
+
+}
+
+footer .bottom-details .bottom_text {
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--aboutBg);
+    text-decoration: none;
+    font-family: var(--fontRoboto);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bottom-details .bottom_text a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+
+.bottom-details .bottom_text a {
+    margin-right: 10px;
+}
+
+
+
+@media (max-width: 1200px) {}
+
+@media only screen and (max-width: 768px) {
+
+    .bottom-details .bottom_text span,
+    .bottom-details .bottom_text a {
+        font-size: 12px;
+    }
+}
+
+    @media (max-width: 900px) {}
+
+    @media (max-width: 700px) {
+        footer {
+            position: relative;
+        }
+
+
+
+    }
+
+    @media (max-width: 520px) {
+        footer::before {
+            top: 145px;
+        }
+
+    }

@@ -1,0 +1,46 @@
+.dinamic_title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--copyrightBg);
+}
+
+.dinamic_content {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.count-blog {
+    margin: 40px 0;
+}
+
+@media (min-width: 480.98px) and (max-width: 768px) {
+    .dinamic {
+        margin: 0;
+    }
+
+    .dinamic_content {
+        padding: 8px 0 60px 0;
+        font-size: 15px;
+    }
+
+    .dinamic_title {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480.98px) {
+    .dinamic {
+        margin: 0;
+    }
+
+    .dinamic_content {
+        padding: 8px 0 60px 0;
+        font-size: 13px;
+    }
+
+    .dinamic_title {
+        font-size: 1.3rem;
+    }
+}

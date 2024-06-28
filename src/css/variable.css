@@ -1,0 +1,33 @@
+:root {
+    --headerBg: rgba(61, 102, 152);
+    --headerColor: rgba(255, 255, 255, 1);
+    --newsBg: rgb(247 248 249);
+    --copyrightBg: #366094;
+    --fontW7: 700;
+    --fontW4: 400;
+    --fontS12: 12px;
+    --fontS14: 14px;
+    --fontS16: 16px;
+    --fontS17: 17px;
+    --fontS20: 20px;
+    --fontFamilyPop: "Poppins", sans-serif;
+    --fontFamilyMon: "Montserrat", sans-serif;
+    --searchColor: rgba(152, 152, 152, 1);
+    --navbarBg: rgb(56, 125, 206);
+    --colorRed: rgba(180, 25, 25, 1);
+    --menuColor: rgba(128, 128, 128, 1);
+    --bodyBg: rgba(244, 237, 237, 1);
+    --calColor: rgba(147, 147, 147, 1);
+    --newsColor2: rgba(30, 30, 30, 1);
+    --newsFeed: rgba(255, 255, 255, 1);
+    --iconColor: rgba(98, 98, 98, 1);
+    --scrollBg: rgba(228, 228, 228, 1);
+    --scrollColor: rgba(121, 121, 121, 1);
+    --newsColor: rgba(55, 55, 55, 1);
+    --authorBg: rgba(237, 235, 235, 1);
+    --aboutTextColor: rgba(73, 73, 73, 1);
+    --socialIcon: rgba(103, 103, 103, 1);
+    --nmrColor: rgba(61, 197, 255, 1);
+    --nmrTextColor: rgba(77, 77, 77, 1);
+
+}
